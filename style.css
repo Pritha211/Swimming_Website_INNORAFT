@@ -273,6 +273,10 @@ h1 b{
     border: none;
     background-color: aliceblue;
     font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
 }
 
 /* .reason-img{
