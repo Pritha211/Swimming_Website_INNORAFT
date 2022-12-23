@@ -19,27 +19,28 @@ body{
     
 }
 
-/* .container{
+.container{
     max-width: 1180px;
-} */
+    margin: 0 auto;
+}
 
 .header-wrapper{
-    /* margin: 2%;
-    margin-top: 0; */
+    float: left;
+    width: 100%;
 }
 
 .brand-logo{
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 .brand-wrap{
-    padding: 4% 6%;
+    padding: 6% 0;
 }
 
 .nav-items{
     float: right;
-    width: 50%;
+    width: 60%;
     
 }
 
@@ -74,29 +75,27 @@ body{
 .services-wrap{
     /* margin: 0 4%; */
     position: relative;
-}
-
-.services-wrap .container{
-    position: absolute;
     top: -200px;
 }
+
+
 
 .services-inner{
     float: left;
     width: 100%;
-    padding: 0 3%;
+   
 }
 
 .services-item{
     width: 25%;
     float: left;
     padding: 20px;
+    position: relative;
 }
 
 .services-item-box{
     padding:25px;
-    height: 420px;
-    position: relative;
+    min-height: 420px;
 }
 
 .box-1{
@@ -120,27 +119,27 @@ body{
     width: 90%;
 }
 
-.next-service-logo{
+.next-service-logo img{
     float: right;
     width: 10%;
     position: absolute;
-    top: 370px;
-    left: 280px;
+    bottom: 40px;
+    right: 35px;
 }
 
 .services-description h1{
-    font-size: 3.5rem;
+    font-size: 40px;
     color: white;
     margin-bottom: 30px;
 }
 
 .services-description p{
-    font-size: 1.3rem;
+    font-size: 18px;
     color: white;
 }
 
 h1 b{
-    word-break: keep-all;
+    word-wrap: break-word;
 }
 
 
@@ -148,13 +147,16 @@ h1 b{
 
 
 .intro-wrap{
-    margin-top: 20%;
+    float: left;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
 }
 .intro-inner{
     float: left;
     width: 100%;
-    padding: 0 4%;
-    margin-top: 2%;
+
+    margin-bottom: 30px;
 }
 .intro-description{
     float: left;
@@ -169,21 +171,22 @@ h1 b{
 }
 
 .intro-description-inner h1{
-    font-size: 3rem;
-    margin-bottom: 7%;
+    font-size: 40px;
+    margin-bottom: 6%;
 }
 .intro-description-inner p{
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 .btn{
+    text-decoration: none;
     margin: 9% 0;
     padding: 4% 7%;
     font-size: 1.8rem;
     border: none;
     background-image: linear-gradient(to left,rgb(252, 19, 19),rgb(247, 243, 32));
     color: white;
-
+    display: inline-block;
 }
 
 .intro-img{
@@ -215,11 +218,11 @@ h1 b{
 
 }
 .intro-description-inner-2 h1{
-    font-size: 3.5rem;
-    margin-bottom: 7%;
+    font-size: 40px;
+    margin-bottom: 6%;
 }
 .intro-description-inner-2 p{
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 
@@ -227,32 +230,34 @@ h1 b{
 
 .reason-wrap{
     /* margin-top: 10%; */
-    /* background-image: url("images/swimming-bg1.jpg");
+    background-image: url("images/swimming-bg1.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+
 }
 
 .reason-description{
     float: left;
     width: 100%;
-    position: relative;
-    top: 50px;
+    
     
 }
 
 .reason-description-inner{
     height: 750px;
-    width: 45%;
+    width: 50%;
     background-image: linear-gradient(to top, rgba(255,5,166,1) 36%, rgba(251,7,7,1) 82%);
     color: white;
     padding: 4%  6%;
     opacity: 0.8;
-    margin: 0 4%;
+    
 }
 
 .reason-description-inner h1{
-    font-size: 3.5rem;
+    font-size: 45px;
     margin-bottom: 40px;
 }
 
@@ -270,23 +275,28 @@ h1 b{
     font-size: 1.5rem;
 }
 
-.reason-img{
+/* .reason-img{
     position: absolute;
     top: 0px;
     z-index: -1;
     width: 100%;
     height: 750px;
-}
+} */
 
 
 /* Events  */
+
+.events-wrap{
+    float: left;
+    width: 100%;
+}
 
 .events-inner{
     float: left;
     width: 100%;
     /* position: relative; */
     margin-top: 8%;
-    padding: 0 4%;
+   
     
     
 }
@@ -298,7 +308,7 @@ h1 b{
 }
 
 .events-description-inner{
-    padding: 10.5% 8%;
+    padding: 10% 8%;
     background-image: linear-gradient(0deg, rgb(228, 90, 69) 0%, rgb(223 174 38) 78%);
     color: white;
     
@@ -306,7 +316,7 @@ h1 b{
 }
 
 .events-description-inner h1{
-        font-size: 3.5rem;
+        font-size: 45px;
         margin-bottom: 40px;
 }
 
@@ -315,7 +325,7 @@ h1 b{
 }
 
 .events-description-inner ul li{
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 2;
     list-style-type: none;
 }
@@ -333,12 +343,16 @@ h1 b{
 
 /* Cards  */
 
+.cards-wrap{
+    float: left;
+    width: 100%;
+}
 
 .cards-inner{
     float: left;
     width: 100%;
-    /* margin-top: 4%; */
-    padding: 0 3%;
+   /* margin-top: 4%; */
+  
 }
 
 .cards-item{
@@ -351,8 +365,7 @@ h1 b{
 
 .cards-img{
     position: relative;
-    bottom: -80px;
-    left: 25px;
+    top: 80px;
     z-index: 1;
 }
 
@@ -369,21 +382,18 @@ h1 b{
 .cards-item-box-inner{
     padding: 15%;
     padding-top: 35%;
-    margin: 2%;
-    margin-top: 0;
-    
     background-color: rgb(245, 242, 242);
     line-height: 1.5;
-    height: 450px;
+    min-height: 550px;
     
 }
 .cards-item-box-inner p{
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 
 .cards-item-box-inner h1{
     color: rgb(249, 27, 27);
-    font-size: 2.5rem;
+    font-size: 35px;
     position: absolute;
     bottom: 20px;
 }
@@ -391,11 +401,15 @@ h1 b{
 
 /* contacts  */
 
+.contacts-wrap{
+    float: left;
+    width: 100%;
+}
+
 .contacts-inner{
     float: left;
     width: 100%;
     margin-top: 4%;
-    padding: 0 4%;
 }
 
 .contacts-description{
@@ -406,19 +420,19 @@ h1 b{
 .contacts-description-inner{
     margin-right: 4%;
     background-image: linear-gradient(180deg, rgba(34,135,195,1) 0%, rgba(58,85,180,1) 54%);
-    padding: 8% 15%;
+    padding: 10% 15%;
     color: white;
-    height: 550px;
+    
 }
 
 .contacts-description-inner h1{
-    font-size: 3rem;
+    font-size: 40px;
     margin: 5% 0;
 }
 
 .contacts-description-inner p{
     margin: 4% 0;
-    font-size: 1.5rem;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -434,7 +448,7 @@ h1 b{
 
 .contacts-photo{
     width: 100%;
-    height: 550px;
+    
 }
 
 .footer p{
